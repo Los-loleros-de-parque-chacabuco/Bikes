@@ -23,7 +23,7 @@ body {
 /* * ============================== */
 
 .navbar {
-	background: #FFCD48;
+	background: #aeea00;
 	position: sticky;
 	top: 0%;
 }
@@ -39,7 +39,7 @@ body {
 }
 
 .navbar a:hover {
-	background: #1D2F3D;
+	background: #1976d2;
 	color: #fff;
 	text-decoration: none;
 }
@@ -101,7 +101,7 @@ aside {
 	min-width: 30%;
 	margin: 40px 20px 20px 0;
 	height: 100%;
-	background: #1D2F3D;
+	background: #1976d2;
 	padding: 20px;
 	border-radius: 3px;
 	position: sticky;
@@ -119,7 +119,7 @@ aside .titulo {
 aside .indice a {
 	display: block;
 	margin-bottom: 10px;
-	color: #FFCD48;
+	color: #aeea00;
 }
 
 /* * ============================== */
@@ -155,6 +155,12 @@ footer .navbar{
 		flex-direction: column;
 	}
 }
+
+video{
+	width: 100%;
+	height: 100%;
+}
+
 .absolute{
 	color: white;
 	width: 100%;
