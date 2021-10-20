@@ -53,8 +53,8 @@ header{
     justify-content: space-between;
 }
 
-.hover{
-    color: #000;
+.navarlogo b:hover{
+    color: red;
 }
 /* * ============================== */
 /* * ===== CONTENEDOR IMAGEN ====== */
