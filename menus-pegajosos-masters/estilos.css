@@ -53,8 +53,24 @@ header{
     justify-content: space-between;
 }
 
-.navarlogo b:hover{
-    color: red;
+.{
+    width: 0px;
+    padding: 0px;
+}
+
+div#foto{
+    width: 200px;
+    background-image: url(../menus-pegajosos-masters/Dibujo/NewCanvas2.png);
+}
+
+div#logo2{
+    visibility: hidden;
+    background-image: url(../menus-pegajosos-masters/Dibujo/NewCanvas1.png);
+}
+
+div#logo:hover div#logo2{
+    background-image: url(../menus-pegajosos-masters/Dibujo/NewCanvas1.png);
+    visibility: visible;
 }
 /* * ============================== */
 /* * ===== CONTENEDOR IMAGEN ====== */
